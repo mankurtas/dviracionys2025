@@ -9,8 +9,8 @@ function Hero() {
         Čia prasideda Jūsų kasmetinis žygis.
       </p>
       <img
-        src="./ready.jpeg"
-        alt="ready"
+        src="/../../public/ready.jpeg"
+        alt="readyUYU"
         className="rounded-2xl shadow-lg w-full max-w-2xl object-cover"
       />
     </section>
