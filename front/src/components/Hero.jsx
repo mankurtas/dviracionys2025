@@ -10,7 +10,7 @@ function Hero() {
       </p>
       <img
         src="/dviracionys2025/ready.jpeg"
-        alt="readyUYU"
+        alt="ready"
         className="rounded-2xl shadow-lg w-full max-w-2xl object-cover"
       />
     </section>
