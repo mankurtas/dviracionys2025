@@ -9,7 +9,7 @@ function Hero() {
         Čia prasideda Jūsų kasmetinis žygis.
       </p>
       <img
-        src="/dviracionys2025/src/assets/ready.jpeg"
+        src="./ready.jpeg"
         alt="ready"
         className="rounded-2xl shadow-lg w-full max-w-2xl object-cover"
       />
