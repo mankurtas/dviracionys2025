@@ -26,47 +26,68 @@ function Navigation() {
 
   return (
 
-    <>
-     {/* Mobile Nav - Bottom */}
-     <nav className="fixed bottom-0 left-0 right-0 bg-neutral text-neutral-content shadow-md z-50 md:hidden">
-        <div className="flex justify-around px-2 py-2">
-          {navItems.map(({ to, label, icon }) => (
-            <NavLink
-              key={to}
-              to={to}
-              className={({ isActive }) =>
-                `flex flex-col items-center text-xs ${
-                  isActive ? "text-accent" : "text-neutral-content"
-                }`
-              }
-            >
-              <div className="mb-1">{icon}</div>
-              <span>{label}</span>
-            </NavLink>
-          ))}
-        </div>
-      </nav>
+    // <>
+    //  {/* Mobile Nav - Bottom */}
+    //  <nav className="fixed bottom-0 left-0 right-0 bg-neutral text-neutral-content shadow-md z-50 md:hidden">
+    //     <div className="flex justify-around px-2 py-2">
+    //       {navItems.map(({ to, label, icon }) => (
+    //         <NavLink
+    //           key={to}
+    //           to={to}
+    //           className={({ isActive }) =>
+    //             `flex flex-col items-center text-xs ${
+    //               isActive ? "text-accent" : "text-neutral-content"
+    //             }`
+    //           }
+    //         >
+    //           <div className="mb-1">{icon}</div>
+    //           <span>{label}</span>
+    //         </NavLink>
+    //       ))}
+    //     </div>
+    //   </nav>
 
-      {/* Desktop Nav - Top */}
-      <nav className="hidden md:flex justify-center bg-neutral text-neutral-content py-4 shadow-sm">
-        <div className="flex gap-10">
-          {navItems.map(({ to, label, icon }) => (
-            <NavLink
-              key={to}
-              to={to}
-              className={({ isActive }) =>
-                `flex flex-col items-center text-sm ${
-                  isActive ? "text-accent" : "text-neutral-content"
-                }`
-              }
-            >
-              <div className="mb-1">{icon}</div>
-              <span>{label}</span>
-            </NavLink>
-          ))}
-        </div>
-      </nav>
-    </>
+    //   {/* Desktop Nav - Top */}
+    //   <nav className="hidden md:flex justify-center bg-neutral text-neutral-content py-4 shadow-sm">
+    //     <div className="flex gap-10">
+    //       {navItems.map(({ to, label, icon }) => (
+    //         <NavLink
+    //           key={to}
+    //           to={to}
+    //           className={({ isActive }) =>
+    //             `flex flex-col items-center text-sm ${
+    //               isActive ? "text-accent" : "text-neutral-content"
+    //             }`
+    //           }
+    //         >
+    //           <div className="mb-1">{icon}</div>
+    //           <span>{label}</span>
+    //         </NavLink>
+    //       ))}
+    //     </div>
+    //   </nav>
+    // </>
+
+    <nav className="bg-neutral text-neutral-content py-4 shadow-sm">
+    <div className="max-w-6xl mx-auto flex flex-wrap justify-center gap-4 sm:gap-6 md:gap-10 px-4">
+      {navItems.map(({ to, label, icon }) => (
+        <NavLink
+          key={to}
+          to={to}
+          className={({ isActive }) =>
+            `flex flex-col items-center text-xs sm:text-sm ${
+              isActive ? "text-accent" : "text-neutral-content"
+            }`
+          }
+        >
+          <div className="mb-1">{icon}</div>
+          <span>{label}</span>
+        </NavLink>
+      ))}
+    </div>
+  </nav>
+  
+    
   );
 }
 

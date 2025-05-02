@@ -9,8 +9,8 @@ function Hero() {
         Čia prasideda Jūsų kasmetinis žygis.
       </p>
       <img
-        src="https://source.unsplash.com/800x400/?adventure,path"
-        alt="Inspiring path"
+        src="/dviracionys2025/src/assets/ready.jpeg"
+        alt="ready"
         className="rounded-2xl shadow-lg w-full max-w-2xl object-cover"
       />
     </section>
