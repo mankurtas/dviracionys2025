@@ -2,9 +2,9 @@ function Schedule() {
   const events = [
     {
       date: "2025 08 15",
-      title: "Pentktadienis",
+      title: "Penktadienis",
       plan: [
-        {text: "Nuo 12:00 Susitikimas sodyboje - Paštuva", url: "https://atostogoskaime.lt/apgyvendinimas/pastuva/"},
+        {text: "Nuo 12:00 Susitikimas sodyboje, \"Paštuva\"", url: "https://atostogoskaime.lt/apgyvendinimas/pastuva/"},
         "18:00 Vakaro pradžia, pasiruošimas",
         "19:15 Vakarienė",
         "21:00 Pramogos, žaidimai, pašnekesiai",
@@ -23,7 +23,7 @@ function Schedule() {
       plan: [
         "Pusryčiai",
         "Atsiveikinimai",
-        "Kelionė namo",
+        "12:00 Kelionė namo",
       ],
     },
   ];

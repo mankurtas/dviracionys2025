@@ -20,10 +20,10 @@ function Reminder() {
       <div className="bg-green-100 text-green-900 p-6 rounded-lg shadow-md">
         <h2 className="text-xl font-semibold mb-4">👥 Visiems:</h2>
         <ul className="list-disc list-inside space-y-2">
-          <li>🥪 Užkandžių (dviem dienom)</li>
+          <li>🥪 Užkandžių ir pusryčius (dviem dienom)</li>
           <li>🥤 Gėrimų (visam savaitgaliui)</li>
-          <li>🩱 Maudymosi reikmenų (kam reikia)</li>
-          <li>🏸 Lauko žaidimų (raketės, kamuolys ir pan.)</li>
+          <li>🩱 Maudymosi reikmenis (kam reikia)</li>
+          <li>🏸 Lauko žaidimų (raketes, kamuolį ir pan.)</li>
         </ul>
       </div>
     </div>

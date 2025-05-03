@@ -5,15 +5,15 @@ function Food() {
     {
       day: "Penktadienis",
       meals: [
-        "🌯 Vakarienė bendra kepsim šašlykus.",
+        "🌯 Vakarienė: bendra - kepsime šašlykus.",
       ],
     },
     {
       day: "Šeštadienis",
       meals: [
         "🥐 Pusryčiai: reikia pasirūpinti patiems.",
-        "🍲 Pietūs: Karčeginėje, nemintukai jungiasi arba rūpinasi patys",
-        "🌭 Vakarienė bendra - darysim hot dogus.",
+        "🍲 Pietūs: Kačerginėje, nemintukai jungiasi arba rūpinasi patys",
+        "🌭 Vakarienė: bendra - darysime dešrainius.",
       ],
     },
     {
@@ -45,8 +45,8 @@ function Food() {
       </div>
 
       <div className="bg-warning text-warning-content p-4 mt-10 rounded-lg shadow-md text-sm md:text-base">
-        <p><strong>Bendrai visomis dienoms:</strong> reikia pasirūpinti gėrimais sau ir užkandžiais sau ir draugui.</p>
-        <p>🌭 Mėsa, dešrelės, duona ir daržovėmis bus pasirūpinta ir <strong>bus įskaičiuota į renginio kainą.</strong></p>
+        <p><strong>Bendrai visoms dienoms:</strong> reikia pasirūpinti gėrimais ir užkandžiais sau ir draugui.</p>
+        <p>🌭 Mėsa, dešrelėmis, duona ir daržovėmis bus pasirūpinta ir <strong> įskaičiuota į renginio kainą.</strong></p>
       </div>
     </div>
   );

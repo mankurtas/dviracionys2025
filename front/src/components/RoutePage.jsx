@@ -8,20 +8,22 @@ function RoutePage() {
       <div className="grid md:grid-cols-2 gap-6 items-start">
         {/* Info Section */}
         <div className="bg-neutral-800 text-white p-6 rounded-xl shadow-lg">
-          <h2 className="text-xl font-semibold mb-4">Informacija apie kelionę</h2>
+          <h2 className="text-xl font-semibold mb-4">Informacija apie žygį</h2>
           <ul className="space-y-3 text-sm md:text-base">
             <li className="flex items-center gap-2">
               <Ruler size={20} className="text-accent" />
-              <span><strong>Ilgis:</strong> ~60 km</span>
+              <span><strong>Trasos ilgis:</strong> ~60 km</span>
             </li>
             <li className="flex items-center gap-2">
               <Clock size={20} className="text-accent" />
-              <span><strong>Trukmė:</strong> ~7 val.</span>
+              <span><strong>Viso žygio trukmė:</strong> ~7 val (minimas, valgymas, pramogavimas)</span>
             </li>
             <li className="flex items-center gap-2">
               <Map size={20} className="text-accent" />
               <span><strong>Tipas:</strong> Apskritiminis maršrutas</span>
             </li>
+          <div className="badge badge-dash badge-info">Judėjimo kryptis - prieš laikrodžio rodyklę</div>
+
           </ul>
 
           {/* Optional Steps */}
@@ -29,12 +31,12 @@ function RoutePage() {
             <h3 className="text-lg font-semibold mb-2">Maršruto eiga:</h3>
             <ol className="list-decimal pl-5 space-y-1 text-sm text-gray-300">
               <li>
-                  Startas Paštuva, prieš laikrodžio rodyklę
+                  Startas: sodyboje
               </li>
-              <li>Pietūs netoli Kačerginės</li>
-              <li>Kauno prieiguose edukacija</li>
-              <li>Lampėdžiai maudynės</li>
-              <li>Finišas</li>
+              <li>Pietūs Kačerginėje</li>
+              <li>Edukacinė programa Kaune</li>
+              <li>Sustojimas Lampėdžiuose - maudynės</li>
+              <li>Finišas sodyboje</li>
             </ol>
           </div>
         </div>
