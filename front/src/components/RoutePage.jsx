@@ -16,7 +16,7 @@ function RoutePage() {
             </li>
             <li className="flex items-center gap-2">
               <Clock size={20} className="text-accent" />
-              <span><strong>Viso žygio trukmė:</strong> ~7 val (minimas, valgymas, pramogavimas)</span>
+              <span><strong>Viso žygio trukmė:</strong> ~7 val (mynimas, valgymas, pramogavimas)</span>
             </li>
             <li className="flex items-center gap-2">
               <Map size={20} className="text-accent" />
@@ -31,7 +31,7 @@ function RoutePage() {
             <h3 className="text-lg font-semibold mb-2">Maršruto eiga:</h3>
             <ol className="list-decimal pl-5 space-y-1 text-sm text-gray-300">
               <li>
-                  Startas: sodyboje
+                  Startas sodyboje
               </li>
               <li>Pietūs Kačerginėje</li>
               <li>Edukacinė programa Kaune</li>

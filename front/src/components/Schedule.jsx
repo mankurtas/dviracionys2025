@@ -4,7 +4,7 @@ function Schedule() {
       date: "2025 08 15",
       title: "Penktadienis",
       plan: [
-        {text: "Nuo 12:00 Susitikimas sodyboje, \"Paštuva\"", url: "https://atostogoskaime.lt/apgyvendinimas/pastuva/"},
+        {text: "Nuo 12:00 Susitikimas sodyboje \"Paštuva\"", url: "https://atostogoskaime.lt/apgyvendinimas/pastuva/"},
         "18:00 Vakaro pradžia, pasiruošimas",
         "19:15 Vakarienė",
         "21:00 Pramogos, žaidimai, pašnekesiai",
@@ -14,7 +14,7 @@ function Schedule() {
       date: "2025 08 16",
       title: "Šeštadienis",
       plan: [
-        "Pusryčiai", "~09:00 Dviračių startas", "~12:30 Pietūs", "14:00 Edukacija", "19:30 Vakarienė", "20:30 Laisvas laikas"
+        "Pusryčiai", "~09:00 Dviratininkų startas", "~12:30 Pietūs", "14:00 Edukacija", "19:30 Vakarienė", "20:30 Laisvas laikas"
       ],
     },
     {
