@@ -20,7 +20,10 @@ function Contacts() {
 
           <p className="flex items-center gap-2 mt-6 text-center justify-center font-medium">
             <Smile className="text-green-600" size={20} />
-            Iki pasimatymo, <strong>Povilas</strong>!
+            Iki pasimatymo!
+          </p>
+          <p className="flex items-center gap-2 mt-6 text-center justify-center font-medium">
+             <strong>Povilas</strong>
           </p>
         </div>
       </div>
