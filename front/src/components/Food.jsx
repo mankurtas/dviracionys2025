@@ -46,7 +46,7 @@ function Food() {
 
       <div className="bg-warning text-warning-content p-4 mt-10 rounded-lg shadow-md text-sm md:text-base">
         <p><strong>Bendrai visoms dienoms:</strong> reikia pasirūpinti gėrimais ir užkandžiais sau ir draugui.</p>
-        <p>🌭 Mėsa, dešrelėmis, duona ir daržovėmis bus pasirūpinta ir <strong> įskaičiuota į renginio kainą.</strong></p>
+        <p>🌭 Mėsa, dešrelėmis, duona ir daržovėmis bus pasirūpinta ir <strong> įskaičiuota į išvykos kainą.</strong></p>
       </div>
     </div>
   );
