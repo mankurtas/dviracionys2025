@@ -134,3 +134,13 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+#firebase
+firebaseServiceAccountKey.json
+
+#file uploader localy only
+PhotoUploader.jsx
+
+#scirpts
+migrateUrlsToPaths.mjs
+
