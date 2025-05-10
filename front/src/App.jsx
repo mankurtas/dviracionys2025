@@ -10,6 +10,9 @@ import Contacts from "./components/Contacts";
 import Reminder from "./components/Reminder";
 import RoutePage from "./components/RoutePage";
 import Logo from "./components/Logo";
+import ProtectedGallery from "./components/ProtectedGallery";
+import Gallery from "./components/Gallery";
+import PhotoUploader from "./components/PhotoUploader";
 
 function App() {
 
@@ -31,6 +34,9 @@ function App() {
           {/* <Route path="/lazy" element={<Lazy />} /> */}
           <Route path="/reminder" element={<Reminder />} />
           <Route path="/contacts" element={<Contacts />} />
+          <Route path="/gallery" element={<ProtectedGallery />} />
+          <Route path="/uploader" element={<PhotoUploader />} />
+
         </Routes>
 
         {/* Footer */}

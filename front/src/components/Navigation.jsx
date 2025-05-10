@@ -1,5 +1,5 @@
 import {NavLink} from "react-router-dom"
-import { Home, CalendarDays, Map, Utensils, Contact, BellRing, Ban, Bike } from "lucide-react"; 
+import { Home, CalendarDays, Map, Utensils, Contact, BellRing, Ban, Bike, ImageIcon } from "lucide-react"; 
 
 function BanBikeIcon() {
     return (
@@ -20,6 +20,7 @@ function Navigation() {
     { to: "/reminder", label: "Atmintinė", icon: <BellRing size={30} /> },
 
     { to: "/contacts", label: "Kontaktai", icon: <Contact size={30} /> },
+    { to: "/gallery", label: "Galerija", icon: <ImageIcon size={30} /> },
 
 
   ];
