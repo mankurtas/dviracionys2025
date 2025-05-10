@@ -1,6 +1,8 @@
+const BASE_URL = import.meta.env.VITE_API_URL;
+
 export const getPhotos = async () => {
     try {
-      const response = await fetch("http://localhost:3001/api/v1/photos/view", {
+      const response = await fetch(`${BASE_URL}/view`, {
         method: "GET",
         credentials: "include", // IMPORTANT: include cookies (JWT)
       });
