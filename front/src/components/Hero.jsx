@@ -9,7 +9,8 @@ function Hero() {
         Čia prasideda Jūsų kasmetinis žygis.
       </p>
       <img
-        src="/dviracionys2025/ready.jpeg"
+        // src="/dviracionys2025/ready.jpeg" for git page
+        src={`${import.meta.env.BASE_URL}ready.jpeg`}
         alt="ready"
         className="rounded-2xl shadow-lg w-full max-w-2xl object-cover"
       />

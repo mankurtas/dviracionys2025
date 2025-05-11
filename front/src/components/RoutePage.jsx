@@ -44,7 +44,8 @@ function RoutePage() {
         {/* Image Section */}
         <div className="rounded-lg overflow-hidden shadow-md">
           <img
-            src="/dviracionys2025/map.png"
+            // src="/dviracionys2025/map.png" for git apge
+            src={`${import.meta.env.BASE_URL}map.png`}
             alt="Google Maps screenshot"
             className="w-full h-auto object-cover"
           />
