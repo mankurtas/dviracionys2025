@@ -27,7 +27,7 @@ export const authenticate = async (password) => {
 
   export const checkAuth = async () => {
     try {
-      const response = await fetch(`${BASE_URL}/view"`, {
+      const response = await fetch(`${BASE_URL}/view`, {
         method: "GET",
         credentials: "include", // Send the cookie
       });
