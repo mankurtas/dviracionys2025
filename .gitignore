@@ -139,9 +139,15 @@ dist
 #firebase
 firebaseServiceAccountKey.json
 
-#file uploader localy only
+#file uploader localy use only
 PhotoUploader.jsx
+photosRoutesLocalUse.mjs
+photosContollerLocalUse.mjs
 
 #scirpts
 migrateUrlsToPaths.mjs
+
+#ignor back folder
+back/
+
 
